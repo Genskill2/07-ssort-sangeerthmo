@@ -15,7 +15,7 @@ void swap_max(int arr[], int len, int n ) {
 	}
 	int *poi_n , *poi_high, temp;
 	poi_n = &arr[n];
-	poi_high = &arr[high]
+	poi_high = &arr[high];
 	temp = *poi_high;
 	*poi_high = *poi_n;
 	*poi_n = temp;
